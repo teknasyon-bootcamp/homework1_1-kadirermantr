@@ -2,6 +2,18 @@
 
 $age = 25;
 
+if ($age >= 0 && $age <= 14) {
+    echo "Çocuk";
+} elseif ($age >= 15 && $age <= 24) {
+    echo "Genç";
+} elseif ($age >= 25 && $age <= 64) {
+    echo "Yetişkin";
+} elseif ($age >= 65) {
+    echo "Yaşlı";
+} else {
+    echo "0'dan büyük bir değer girin";
+}
+
 /**
  * Bu ödevde age değişkeni içerisinde yer alan yaş değerinin bulunduğu
  * yaş grubu tespit edilip ekrana bu yaş grubunun ismi yazılmalıdır. 
